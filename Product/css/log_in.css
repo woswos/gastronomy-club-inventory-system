@@ -1,0 +1,185 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#log_in {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 900px;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+#welcome_text {
+    float: none;
+    font-size: 50px;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 60px;
+    clear: none;
+    min-height: 0px;
+    font-family: Raleway;
+    margin-right: auto;
+}
+
+#description_text {
+    float: none;
+    font-size: 24px;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'Open Sans';
+    margin-right: auto;
+}
+
+#error_text {
+	color: red;
+    float: none;
+    font-size: 16px;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'Open Sans';
+    margin-right: auto;
+}
+
+#username_group {
+    float: none;
+    height: 51px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 230px;
+    margin-right: auto;
+}
+
+#username_input {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#username_text {
+    float: none;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+}
+
+#password_group {
+    float: none;
+    height: 51px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    width: 230px;
+    margin-right: auto;
+}
+
+#password_text {
+    float: none;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+}
+
+#password_input {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#log_in_button {
+    float: none;
+    height: 40px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 150px;
+    margin-right: auto;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 1px 3px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 1px 3px 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-family: 'Open Sans';
+    display: block;
+    background-color: rgb(255, 255, 255);
+	border: 1px solid black;
+}
+
+#log_in_button:hover {
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    color: rgb(0, 0, 0);
+}
+
