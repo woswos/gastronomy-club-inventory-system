@@ -1,0 +1,127 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#index {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 900px;
+    margin-right: auto;
+    min-height: 500px;
+}
+
+#hello_text {
+    float: left;
+    font-size: 50px;
+    width: 179px;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 10px;
+    margin-top: 60px;
+    clear: none;
+    min-height: 0px;
+    font-family: Raleway;
+}
+
+#welcome_text {
+    float: left;
+    font-size: 24px;
+    width: 879px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 13px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    font-family: 'Open Sans';
+}
+
+#table {
+    float: left;
+    height: auto;
+    margin-left: 12px;
+    margin-top: 15px;
+    clear: both;
+    width: 100%;
+    min-height: 40px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:100%;
+}
+th {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-bottom: 4px solid black;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+#user_panel_button {
+    float: left;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 60px;
+    clear: none;
+    width: 150px;
+    margin-right: 0px;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 1px 3px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 1px 3px 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    display: block;
+}
+
+#user_panel_button:hover {
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+
